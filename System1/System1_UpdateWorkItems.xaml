@@ -103,21 +103,21 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="System1_UpdateWorkItems" sap:VirtualizedContainerService.HintSize="1653,3711" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="System1_UpdateWorkItems" sap:VirtualizedContainerService.HintSize="1653,3751" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="554,531" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="554,571" sap2010:WorkflowViewState.IdRef="CommentOut_1">
       <ui:CommentOut.Body>
-        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="518,420" sap2010:WorkflowViewState.IdRef="Sequence_4">
+        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="518,460" sap2010:WorkflowViewState.IdRef="Sequence_4">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Edge" DisplayName="Attach Browser - Work Item details page" sap:VirtualizedContainerService.HintSize="484,360" sap2010:WorkflowViewState.IdRef="BrowserScope_1" InformativeScreenshot="3aa574ca9b3cc152993ccc2db0dff0bc" Selector="&lt;html app='msedge.exe' title='ACME System 1 - Work Items' /&gt;">
+          <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Edge" DisplayName="Attach Browser - Work Item details page" sap:VirtualizedContainerService.HintSize="484,400" sap2010:WorkflowViewState.IdRef="BrowserScope_1" InformativeScreenshot="3aa574ca9b3cc152993ccc2db0dff0bc" Selector="&lt;html app='msedge.exe' title='ACME System 1 - Work Items' /&gt;">
             <ui:BrowserScope.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
@@ -164,7 +164,7 @@
         </Sequence>
       </ui:CommentOut.Body>
     </ui:CommentOut>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Edge ACME System 1 - Work Items" sap:VirtualizedContainerService.HintSize="554,529" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="17de5341-fb91-40b1-ba22-7ab7acd6b495" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Edge ACME System 1 - Work Items" sap:VirtualizedContainerService.HintSize="554,529" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="17de5341-fb91-40b1-ba22-7ab7acd6b495" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>

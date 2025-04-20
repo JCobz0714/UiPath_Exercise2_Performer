@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="System1_UploadYearlyReport" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="System1_UploadYearlyReport" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/ocr" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="in_TaxID" Type="InArgument(x:String)" />
     <x:Property Name="in_Year" Type="InArgument(x:String)" />
@@ -50,6 +50,12 @@
       <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
       <x:String>System.ComponentModel</x:String>
       <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.Vision.OCR</x:String>
+      <x:String>UiPath.OCR.Contracts</x:String>
+      <x:String>UiPath.OCR.Activities</x:String>
+      <x:String>UiPath.OCR.Contracts.Activities</x:String>
+      <x:String>UiPath.Core.Activities.OCR.Engines</x:String>
+      <x:String>UiPath.Vision.Core.OCR</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -106,23 +112,26 @@
       <AssemblyReference>PresentationFramework</AssemblyReference>
       <AssemblyReference>WindowsBase</AssemblyReference>
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Core</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Contracts</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="System1_UploadYearlyReport" sap:VirtualizedContainerService.HintSize="1653,4392" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="System1_UploadYearlyReport" sap:VirtualizedContainerService.HintSize="1653,4704" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="572,1935" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="572,1935" sap2010:WorkflowViewState.IdRef="CommentOut_4">
       <ui:CommentOut.Body>
-        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="536,1824" sap2010:WorkflowViewState.IdRef="Sequence_3">
+        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="536,1824" sap2010:WorkflowViewState.IdRef="Sequence_7">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Edge" DisplayName="Attach Browser - Upload yearly report page" sap:VirtualizedContainerService.HintSize="502,1764" sap2010:WorkflowViewState.IdRef="BrowserScope_1" InformativeScreenshot="1a74221477808d2cf346bf4c3d0d9906" Selector="&lt;html app='msedge.exe' title='ACME System 1 - Upload Yearly Report' /&gt;">
+          <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Edge" DisplayName="Attach Browser - Upload yearly report page" sap:VirtualizedContainerService.HintSize="502,1764" sap2010:WorkflowViewState.IdRef="BrowserScope_2" InformativeScreenshot="1a74221477808d2cf346bf4c3d0d9906" Selector="&lt;html app='msedge.exe' title='ACME System 1 - Upload Yearly Report' /&gt;">
             <ui:BrowserScope.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
@@ -296,13 +305,13 @@
         </Sequence>
       </ui:CommentOut.Body>
     </ui:CommentOut>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Edge ACME System 1 - Upload Yearly Report" sap:VirtualizedContainerService.HintSize="572,2434" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="09780f32-1075-47c4-a5b0-83551e4218e3" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Edge ACME System 1 - Upload Yearly Report" sap:VirtualizedContainerService.HintSize="572,2746" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="09780f32-1075-47c4-a5b0-83551e4218e3" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="468,2194" sap2010:WorkflowViewState.IdRef="Sequence_4">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="468,2506" sap2010:WorkflowViewState.IdRef="Sequence_4">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -419,20 +428,33 @@
                 </uix:VerifyExecutionOptions>
               </uix:NClick.VerifyOptions>
             </uix:NClick>
-            <uix:NGetText DisplayName="Get Text 'acme-test.uipath.com sa…'" sap:VirtualizedContainerService.HintSize="434,189" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="09780f32-1075-47c4-a5b0-83551e4218e3" TextString="[out_Confirmation]" Version="V4">
-              <uix:NGetText.Target>
-                <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/reports/upload" ContentHash="-IgJFlgkB0GOq-TgImLM0w" DesignTimeRectangle="760, 122, 416, 36" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;ctrl name='acme-test.uipath.com says' role='dialog' /&gt;&lt;ctrl name='Report was uploaded - confirmation id is 279c793d20f71fed35abece*' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='acme-test.uipath.com says' role='dialog' /&gt;&lt;ctrl name='Report was uploaded - confirmation id is 279c793d20f71fed35abece*' role='text' automationid='' /&gt;" Guid="93d55b13-8861-4aa3-981d-106ee89640e4" InformativeScreenshot="57ec2cd5d4fbf8019e218c1a869e4136.png" Reference="oehv-HkLBU6gnr3MxyrVkg/8pXEmLG5Wk6mVqv1llNCXA" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='ACME System 1 - Upload Yearly Report - Personal - Microsoft​ Edg*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
-                  <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target CVScreenId="31eef0cc-4c0b-4b2a-bb62-3db44dc54ba6" CvTextArea="758, 97, 177, 16" CvTextArgument="acme-test.uipath.com says" CvType="Text" DesignTimeRectangle="758, 97, 177, 16" ElementType="Text" Guid="a95c2d7e-87b6-4300-868b-c2ebdc19f1e3" SearchSteps="CV" TargetType="ComputerVisionBased" />
-                    </scg:List>
-                  </uix:TargetAnchorable.Anchors>
-                </uix:TargetAnchorable>
-              </uix:NGetText.Target>
-            </uix:NGetText>
+            <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="434,122" sap2010:WorkflowViewState.IdRef="Delay_1" />
+            <ui:GetOCRText WordsInfo="{x:Null}" DisplayName="Get OCR Text 'text Report'" sap:VirtualizedContainerService.HintSize="434,204" sap2010:WorkflowViewState.IdRef="GetOCRText_1">
+              <ui:GetOCRText.OCREngine>
+                <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+                  <ActivityFunc.Argument>
+                    <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                  </ActivityFunc.Argument>
+                  <p:UiPathScreenOCR ApiKey="{x:Null}" Endpoint="{x:Null}" Output="{x:Null}" PredictionId="{x:Null}" Text="{x:Null}" UseAccents="{x:Null}" UseLocalServer="{x:Null}" ComputeSkewAngle="False" DisplayName="UiPath Screen OCR" ExtractWords="False" sap:VirtualizedContainerService.HintSize="300,25" sap2010:WorkflowViewState.IdRef="UiPathScreenOCR_1" Image="[Image]" Language="auto" NoopExecution="False" Profile="Screen" Scale="1" Timeout="100000" />
+                </ActivityFunc>
+              </ui:GetOCRText.OCREngine>
+              <ui:GetOCRText.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1c764a0e-388a-497d-9ea3-8ab463befe9e" InformativeScreenshot="1c2d1416ea2f566bda39ccca5f4c7d0a" Selector="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='ACME System 1 - Upload Yearly Report - Personal - Microsoft​ Edg*' /&gt;&lt;ctrl name='acme-test.uipath.com says' role='dialog' /&gt;&lt;ctrl name='Report was uploaded - confirmation id is *' role='text' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:GetOCRText.Target>
+              <ui:GetOCRText.Text>
+                <OutArgument x:TypeArguments="x:String">[out_Confirmation]</OutArgument>
+              </ui:GetOCRText.Text>
+            </ui:GetOCRText>
             <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'OK'" sap:VirtualizedContainerService.HintSize="434,225" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="09780f32-1075-47c4-a5b0-83551e4218e3" Version="V4">
               <uix:NClick.Target>
-                <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/reports/upload" CVScreenId="fc36b85b-6c8b-4614-939c-7a4900ea6fca" ContentHash="F5a8ZKHkZEaimhU8-Ql8mg" CvElementArea="1110, 172, 68, 36" CvTextArea="1133, 183, 19, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="1112, 174, 64, 32" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl name='acme-test.uipath.com says' role='dialog' /&gt;&lt;ctrl name='OK' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='acme-test.uipath.com says' role='dialog' /&gt;&lt;ctrl name='OK' role='push button' automationid='' check:fulltext='OK' /&gt;" Guid="fd93ef08-760e-4aa2-a2b3-e8f5c86afbe7" InformativeScreenshot="4eb68ccc34e34d3898ea3ff9e3939fe8.png" Reference="oehv-HkLBU6gnr3MxyrVkg/enCZKJR0w0GWrcqYpf1qzw" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='ACME System 1 - Upload Yearly Report - Personal - Microsoft​ Edg*' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/reports/upload" CVScreenId="fc36b85b-6c8b-4614-939c-7a4900ea6fca" CvElementArea="1110, 172, 68, 36" CvTextArea="1133, 183, 19, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="1112, 174, 64, 32" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl name='acme-test.uipath.com says' role='dialog' /&gt;&lt;ctrl name='OK' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='acme-test.uipath.com says' role='dialog' /&gt;&lt;ctrl name='OK' role='push button' automationid='' check:text='OK' /&gt;" Guid="fd93ef08-760e-4aa2-a2b3-e8f5c86afbe7" InformativeScreenshot="327bc2d81e24e6fa911778d3bf6425ea.png" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='ACME System 1 - Upload Yearly Report - Personal - Microsoft​ Edg*' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
               </uix:NClick.Target>
               <uix:NClick.VerifyOptions>
                 <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
@@ -445,6 +467,7 @@
                 </uix:VerifyExecutionOptions>
               </uix:NClick.VerifyOptions>
             </uix:NClick>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,175" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[out_Confirmation]" />
             <Assign DisplayName="Assign - Get the confirmation ID" sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_2">
               <Assign.To>
                 <OutArgument x:TypeArguments="x:String">[out_Confirmation]</OutArgument>

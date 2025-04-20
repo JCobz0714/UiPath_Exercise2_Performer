@@ -374,7 +374,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Edge ACME System 1 - Download Monthly Report" sap:VirtualizedContainerService.HintSize="1090,1193" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="7e8b4616-85fa-4f63-9f76-a91db647debb" Version="V2">
+            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Edge ACME System 1 - Download Monthly Report" sap:VirtualizedContainerService.HintSize="1090,1193" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="7e8b4616-85fa-4f63-9f76-a91db647debb" Version="V2">
               <uix:NApplicationCard.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>

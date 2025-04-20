@@ -164,7 +164,7 @@
         </Sequence>
       </ui:CommentOut.Body>
     </ui:CommentOut>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Edge ACME System 1 - Work Items" sap:VirtualizedContainerService.HintSize="572,773" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="1cacde7b-2d78-47cd-bb8b-48937f6e93f1" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Edge ACME System 1 - Work Items" sap:VirtualizedContainerService.HintSize="572,773" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="1cacde7b-2d78-47cd-bb8b-48937f6e93f1" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>

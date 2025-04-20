@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="F5a8ZKHkZEaimhU8-Ql8mg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="VGrKik-SdkuXTCt8mtH5Cg" Reference="oehv-HkLBU6gnr3MxyrVkg/enCZKJR0w0GWrcqYpf1qzw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
     <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/reports/upload" CVScreenId="fc36b85b-6c8b-4614-939c-7a4900ea6fca" CvElementArea="1110, 172, 68, 36" CvTextArea="1133, 183, 19, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="1112, 174, 64, 32" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl name='acme-test.uipath.com says' role='dialog' /&gt;&lt;ctrl name='OK' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='acme-test.uipath.com says' role='dialog' /&gt;&lt;ctrl name='OK' role='push button' automationid='' check:fulltext='OK' /&gt;" Guid="fd93ef08-760e-4aa2-a2b3-e8f5c86afbe7" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='ACME System 1 - Upload Yearly Report - Personal - Microsoft​ Edg*' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="4eb68ccc34e34d3898ea3ff9e3939fe8.png" xmlns="">0gfWNBa7gb0yvpfjYguQT3Q</imageRef>
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="760, 122, 416, 36" ElementType="Text" FullSelectorArgument="&lt;ctrl name='acme-test.uipath.com says' role='dialog' /&gt;&lt;ctrl name='Report was uploaded - confirmation id is 0868bf7f965108db281e520*' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='acme-test.uipath.com says' role='dialog' /&gt;&lt;ctrl name='Report was uploaded - confirmation id is 0868bf7f965108db281e520*' role='text' automationid='' /&gt;" Guid="386e4829-dcf1-4c3d-a484-a1b68575d3ed" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9592a3c959745a4586f04c8a7251802f.png" xmlns="">0tzXoOGtokUe6iRRmZt-kuw</imageRef>
     </TargetAnchorable>
-    <x:String x:Key="ActivityType">Click</x:String>
+    <x:String x:Key="ActivityType">None</x:String>
   </ObjectRepositoryTargetData.Data>
 </ObjectRepositoryTargetData>

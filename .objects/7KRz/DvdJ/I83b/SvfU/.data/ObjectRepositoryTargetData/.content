@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="w0Nf2KkLTkqAYOYmwLlcxA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/reports/upload" DesignTimeRectangle="760, 122, 416, 36" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;ctrl name='acme-test.uipath.com says' role='dialog' /&gt;&lt;ctrl name='Report was uploaded - confirmation id is *' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='acme-test.uipath.com says' role='dialog' /&gt;&lt;ctrl name='Report was uploaded - confirmation id is *' role='text' automationid='' /&gt;" Guid="0d8304bf-9520-4ec3-a04a-2f79f1ad25a4" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='ACME System 1 - Upload Yearly Report - Personal - Microsoft​ Edg*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="cfbf5ddf76f31ae6ce5cd9973863371e.png" xmlns="">0O13fbraj1UO-RmJN24Ehkg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
