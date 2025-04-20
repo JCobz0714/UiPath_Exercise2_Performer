@@ -129,7 +129,7 @@
         </Sequence>
       </ui:CommentOut.Body>
     </ui:CommentOut>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge ACME System 1 - Download Monthly Report" sap:VirtualizedContainerService.HintSize="554,409" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="686f2d1a-414c-42d1-9d52-195a400277a6" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Edge ACME System 1 - Download Monthly Report" sap:VirtualizedContainerService.HintSize="554,409" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="686f2d1a-414c-42d1-9d52-195a400277a6" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>

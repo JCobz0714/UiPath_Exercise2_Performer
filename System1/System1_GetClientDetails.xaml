@@ -164,7 +164,7 @@
         </Sequence>
       </ui:CommentOut.Body>
     </ui:CommentOut>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge ACME System 1 - Work Items" sap:VirtualizedContainerService.HintSize="572,773" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="1cacde7b-2d78-47cd-bb8b-48937f6e93f1" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Edge ACME System 1 - Work Items" sap:VirtualizedContainerService.HintSize="572,773" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="1cacde7b-2d78-47cd-bb8b-48937f6e93f1" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -183,7 +183,7 @@
               <uix:NGetText.Target>
                 <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/work-items/105860995" DesignTimeRectangle="499, 494, 373, 80" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='P' type='' class='' aaname='                              FR322345                              Miditronic Technologies                              Avenue Lafarge 23                              Grenoble, France                         ' /&gt;" Guid="fee3b6e4-5399-4ce8-a8cc-56907cf5649e" InformativeScreenshot="2807fa7b99d9c8e09f0abaeda613db44.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Work Items' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CVScreenId="a1232911-4abb-4663-9021-0ca15e7d6b51" CvTextArea="497, 465, 154, 16" CvTextArgument="Vendor Information" CvType="Text" DesignTimeRectangle="499, 465, 373, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H4' type='' class='' aaname='Vendor Information' check:innerText='Vendor Information' /&gt;" Guid="567935b4-fa37-4c9e-8989-68239d479806" SearchSteps="FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
