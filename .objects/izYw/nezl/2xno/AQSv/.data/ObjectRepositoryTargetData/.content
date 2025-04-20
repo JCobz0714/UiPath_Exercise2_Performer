@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3JUVPhEIj022vWyVAiGAeg" Reference="oehv-HkLBU6gnr3MxyrVkg/AQSvuaXy4U-W58Z5diK6ew" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="41, 69, 336, 50" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;ctrl name='Downloads' role='document' /&gt;&lt;ctrl name='What do you want to do with Report-FR322345-2.csv? Open Save as *' role='outline item' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Downloads' role='document' /&gt;&lt;ctrl name='What do you want to do with Report-FR322345-2.csv? Open Save as *' role='outline item' automationid='' check:text='What do you want to do with Report-FR322345-2.csv? Open Save as Save' /&gt;" Guid="c3927048-102a-4f8e-ae0e-03c83ce57199" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' idx='*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d0f43cbd-78e3-4765-b183-1db2d18eda54" CvTextArea="48, 35, 83, 15" CvTextArgument="Downloads" CvType="Text" DesignTimeRectangle="48, 35, 83, 15" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Downloads' role='document' /&gt;&lt;ctrl name='Downloads' role='push button' /&gt;&lt;ctrl name='Downloads' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Downloads' role='document' /&gt;&lt;ctrl name='Downloads' role='push button' /&gt;&lt;ctrl name='Downloads' role='text' automationid='' /&gt;" Guid="04cb0cca-f87a-4b85-b950-af35f3cc1f56" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="38499108bcb16603415cf4fc8ebffd5d.png" xmlns="">08WD-X60Jgk2E2J9YsajiAw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

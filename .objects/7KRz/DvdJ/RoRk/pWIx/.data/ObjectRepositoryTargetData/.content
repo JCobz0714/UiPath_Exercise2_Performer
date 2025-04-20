@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="DWzgHcL6kkydduB27zBBWQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/work-items/update/105860995" CVScreenId="885e52d1-fc1b-4503-957f-d517236a29e6" CvElementArea="425, 7, 19, 18" CvType="CloseButton" DesignTimeRectangle="412, 1, 46, 31" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl name='ACME System 1 - Microsoft Edge' role='pane' /&gt;&lt;ctrl name='Close' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='ACME System 1 - Microsoft Edge' role='pane' /&gt;&lt;ctrl name='Close' role='push button' automationid='' check:text='Close' /&gt;" Guid="979c16dd-3c64-48ee-9e6f-ddb1b238f018" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='ACME System 1 - Personal - Microsoft​ Edge' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="885e52d1-fc1b-4503-957f-d517236a29e6" CvElementArea="379, 6, 20, 19" CvType="MaximizeButton" DesignTimeRectangle="366, 1, 46, 31" ElementType="Button" FullSelectorArgument="&lt;ctrl name='ACME System 1 - Microsoft Edge' role='pane' /&gt;&lt;ctrl name='Maximize' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='ACME System 1 - Microsoft Edge' role='pane' /&gt;&lt;ctrl name='Maximize' role='push button' automationid='' check:text='Maximize' /&gt;" Guid="f0167789-2269-4921-ab13-a64045469e26" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fc30558e6608214e14c657731a7f7559.png" xmlns="">06CCEzQB8WUG1w6lhV_g--Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

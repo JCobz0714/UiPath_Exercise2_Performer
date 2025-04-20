@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="KQoNFR9h7U2WyEGSG82zvw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/reports/download" DesignTimeRectangle="60, 47, 40, 30" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl name='ACME System 1 - Download Monthly Report - Microsoft Edge' role='pane' /&gt;&lt;ctrl name='App bar' role='tool bar' /&gt;&lt;ctrl name='Refresh' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='ACME System 1 - Download Monthly Report - Microsoft Edge' role='pane' /&gt;&lt;ctrl name='App bar' role='tool bar' /&gt;&lt;ctrl name='Refresh' role='push button' automationid='' check:text='Refresh' /&gt;" Guid="9ff61835-3cd4-44a1-b3d9-d8e8b2d769a2" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='ACME System 1 - Download Monthly Report - Personal - Microsoft​ *' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="8, 47, 48, 30" ElementType="Button" FullSelectorArgument="&lt;ctrl name='ACME System 1 - Download Monthly Report - Microsoft Edge' role='pane' /&gt;&lt;ctrl name='App bar' role='tool bar' /&gt;&lt;ctrl name='Back' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='ACME System 1 - Download Monthly Report - Microsoft Edge' role='pane' /&gt;&lt;ctrl name='App bar' role='tool bar' /&gt;&lt;ctrl name='Back' role='push button' automationid='' check:text='Back' /&gt;" Guid="6e7a9361-5df3-4ca2-889b-4e8bdfb59751" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8afd780cc07123f565ec6dc2d5f42256.png" xmlns="">0dn5RBYxjtkK04gKJC1ubpw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

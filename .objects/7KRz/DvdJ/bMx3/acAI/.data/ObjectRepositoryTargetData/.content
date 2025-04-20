@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Ykz7f6k9sk6VBrtMg_A8SQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com" CVScreenId="c5dc4462-2d9d-4a19-bbaa-418d13d5ee7e" CvTextArea="1480, 179, 51, 16" CvTextArgument="Log Out" CvType="Text" DesignTimeRectangle="1466, 161, 80, 50" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Log Out' parentid='bs-example-navbar-collapse-1' tag='A' type='' class='' check:innerText='Log Out' /&gt;" Guid="97071c6d-54a6-4edc-8ef4-d35d58a0a32f" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Dashboard' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c5dc4462-2d9d-4a19-bbaa-418d13d5ee7e" CvTextArea="1320, 179, 131, 13" CvTextArgument="Switch to new theme" CvType="Text" DesignTimeRectangle="1307, 161, 159, 50" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Switch to new theme' parentid='bs-example-navbar-collapse-1' tag='A' type='' class='' check:innerText='Switch to new theme' /&gt;" Guid="3027659f-edb2-4f32-9d7a-5fc9d975b58c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="852b829c764ab56c12164156d4d7228b.png" xmlns="">0lHoFkvNm4EWxn2cMGUrW0g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

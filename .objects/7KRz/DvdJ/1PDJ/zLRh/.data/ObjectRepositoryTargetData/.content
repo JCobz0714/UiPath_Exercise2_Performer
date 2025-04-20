@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tAvtSQQnIE2nLBorlXjigA" Reference="oehv-HkLBU6gnr3MxyrVkg/zLRhVBbG0UiJrX5ioc5joQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/reports/download" CVScreenId="841a133d-cb66-4625-8cc2-332b4dce8c9e" CvElementArea="135, 92, 67, 24" CvTextArea="148, 99, 40, 11" CvTextArgument="Save as" CvType="Button" DesignTimeRectangle="135, 93, 66, 22" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Downloads' role='document' /&gt;&lt;ctrl name='What do you want to do with Report-FR322345-2.csv? Open Save as *' role='outline item' /&gt;&lt;ctrl name='Save as' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Downloads' role='document' /&gt;&lt;ctrl name='What do you want to do with Report-FR322345-2.csv? Open Save as *' role='outline item' /&gt;&lt;ctrl name='Save as' role='push button' automationid='' check:fulltext='Save as' /&gt;" Guid="abc9be5f-a60f-4c30-bbc3-3e6bfbe76046" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' idx='*' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="841a133d-cb66-4625-8cc2-332b4dce8c9e" CvElementArea="208, 92, 53, 24" CvTextArea="221, 99, 26, 11" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="208, 93, 52, 22" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Downloads' role='document' /&gt;&lt;ctrl name='What do you want to do with Report-FR322345-2.csv? Open Save as *' role='outline item' /&gt;&lt;ctrl name='Save' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Downloads' role='document' /&gt;&lt;ctrl name='What do you want to do with Report-FR322345-2.csv? Open Save as *' role='outline item' /&gt;&lt;ctrl name='Save' role='push button' automationid='' check:fulltext='Save' /&gt;" Guid="0348a903-fbe2-40b2-b6fb-c8dd8e1f3473" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f97231604ed878b58713dd02c7c5fa0f.png" xmlns="">0GKSkPQSqUkqE4INEaQQyiQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

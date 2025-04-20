@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="q-_4qHPQKE6m1uTydw6CdQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/reports/upload" CVScreenId="1fca5185-7978-413d-a054-8e15f6df53b0" CvElementArea="466, 623, 120, 37" CvTextArea="480, 635, 93, 16" CvTextArgument="Upload Report" CvType="Button" DesignTimeRectangle="468, 625, 116, 34" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='buttonUpload' tag='BUTTON' type='button' class='btn btn-primary' aaname='Upload Report' check:innerText='Upload Report' /&gt;" Guid="53c7a378-25f8-4e2c-ad71-37a702d32dc6" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Upload Yearly Report' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="dc8a14e31b1cc58b8b5647a4d18513b1.png" xmlns="">0Rf0vGn3d_0aVAnnm-Lzazg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
